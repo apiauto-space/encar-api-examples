@@ -8,7 +8,7 @@ Key facts:
 - Endpoints: GET /v1/cars (filters brand, model, generation, trim, year_min, year_max, price_min, price_max, price_usd_min, price_usd_max, mileage_max, fuel, transmission, body_type, has_photos, is_active, q; sort; cursor pagination; limit up to 100, 20 on the demo), GET /v1/cars/{id}, GET /v1/changes (added, disappeared, price_drop, price_up since a moment), GET /v1/references/{brands,models,dictionaries,markets}, GET /v1/usage, GET /v1/us/live.
 - Quota counts returned cars, not requests. References, usage and photos are free.
 - Server-side only: CORS is off.
-- Client libraries: `pip install apiauto` (https://github.com/apiauto-space/apiauto-python), `npm i apiauto` (https://github.com/apiauto-space/apiauto-js).
+- Client libraries: `pip install apiauto-space` (https://github.com/apiauto-space/apiauto-python), `npm i apiauto` (https://github.com/apiauto-space/apiauto-js).
 
 ## Examples
 

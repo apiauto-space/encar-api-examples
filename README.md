@@ -164,7 +164,7 @@ change feed), Max $299 (3 markets, 2,000,000 cars), [details](https://apiauto.sp
 
 | Language | Package | Repository |
 |---|---|---|
-| Python | `pip install apiauto` | [apiauto-space/apiauto-python](https://github.com/apiauto-space/apiauto-python) |
+| Python | `pip install apiauto-space` | [apiauto-space/apiauto-python](https://github.com/apiauto-space/apiauto-python) |
 | JavaScript / TypeScript | `npm i apiauto` | [apiauto-space/apiauto-js](https://github.com/apiauto-space/apiauto-js) |
 | Any language | [openapi.json](https://api.apiauto.space/openapi.json) | generate a client with openapi-generator |
 
