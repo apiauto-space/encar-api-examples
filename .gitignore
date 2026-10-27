@@ -1,0 +1,10 @@
+.env
+cars.db
+since.txt
+*.csv
+encar-*/
+che168-*/
+copart-*/
+iaai-*/
+__pycache__/
+node_modules/

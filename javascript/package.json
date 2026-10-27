@@ -1,0 +1,16 @@
+{
+  "name": "encar-api-examples",
+  "private": true,
+  "description": "Encar, Che168, Copart and IAAI API examples in JavaScript (Node.js, fetch, no dependencies)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "first-request": "node first-request.mjs",
+    "all-pages": "node all-pages.mjs",
+    "us-auctions": "node us-auctions.mjs",
+    "price-drops": "node price-drops.mjs"
+  },
+  "license": "MIT"
+}

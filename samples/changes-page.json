@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": 2441420,
+      "car_id": "encar:38299785",
+      "market": "kr",
+      "type": "added",
+      "at": "2026-10-26T05:07:45.959760Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 2441421,
+      "car_id": "encar:39850024",
+      "market": "kr",
+      "type": "added",
+      "at": "2026-10-26T05:07:45.959837Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 2441422,
+      "car_id": "encar:40276972",
+      "market": "kr",
+      "type": "added",
+      "at": "2026-10-26T05:07:45.959860Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 2441423,
+      "car_id": "encar:40298104",
+      "market": "kr",
+      "type": "added",
+      "at": "2026-10-26T05:07:45.959878Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    }
+  ],
+  "next_cursor": "eyJpZCI6MjQ0MTQyM30"
+}

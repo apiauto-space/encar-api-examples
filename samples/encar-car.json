@@ -1,0 +1,77 @@
+{
+  "id": "encar:43020826",
+  "market": "kr",
+  "source": "encar",
+  "source_id": "43020826",
+  "title": "2020 Hyundai The New Grandeur IG 2.5 Exclusive",
+  "brand": "Hyundai",
+  "model": "Grandeur",
+  "generation": "The New Grandeur IG",
+  "trim": "2.5 Exclusive",
+  "year": 2020,
+  "mileage_km": 82489,
+  "fuel": "gasoline",
+  "transmission": null,
+  "engine_cc": null,
+  "body_type": null,
+  "color": null,
+  "vin": null,
+  "price": {
+    "amount": "21600000.00",
+    "currency": "KRW"
+  },
+  "price_usd": "16298.48",
+  "location": {
+    "country": "KR",
+    "region": "Jeonbuk",
+    "city": null
+  },
+  "photos": [
+    "https://api.apiauto.space/img/encar:43020826/1.jpg?exp=…&sig=…",
+    "https://api.apiauto.space/img/encar:43020826/2.jpg?exp=…&sig=…",
+    "https://api.apiauto.space/img/encar:43020826/3.jpg?exp=…&sig=…",
+    "https://api.apiauto.space/img/encar:43020826/4.jpg?exp=…&sig=…"
+  ],
+  "photo_count": 4,
+  "listing_url": "https://fem.encar.com/cars/detail/43020826",
+  "is_active": true,
+  "first_seen_at": "2026-10-26T04:37:32.553458Z",
+  "last_seen_at": "2026-10-26T04:37:32.553458Z",
+  "disappeared_at": null,
+  "updated_at": "2026-10-26T04:37:32.553458Z",
+  "raw": {
+    "fx": {
+      "date": "2026-10-26",
+      "source": "ECB",
+      "currency": "KRW",
+      "usd_per_unit": "0.0007545592"
+    },
+    "badge": "2.5",
+    "trust": [],
+    "has_vin": false,
+    "condition": [
+      "Inspection",
+      "Record",
+      "Resume"
+    ],
+    "form_year": "202007",
+    "sell_type": "normal",
+    "body_class": null,
+    "office_city": "전북",
+    "badge_detail": "익스클루시브",
+    "has_accident": false,
+    "service_mark": [],
+    "source_values": {
+      "fuel": "가솔린",
+      "trim": "2.5 익스클루시브",
+      "brand": "현대",
+      "model": "더 뉴 그랜저 IG",
+      "region": "전북",
+      "sell_type": "일반",
+      "transmission": null
+    },
+    "has_inspection": false,
+    "source_adapter": "encar"
+  },
+  "source_mode": "replica"
+}

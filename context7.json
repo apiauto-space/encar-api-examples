@@ -1,0 +1,14 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "apiauto.space — Encar, Che168, Copart and IAAI API",
+  "description": "REST API with used-car listings from Encar (Korea), Che168 (China), Copart and IAAI (USA) in one JSON format: examples in curl, Python, JavaScript and PHP",
+  "folders": ["curl", "python", "javascript", "php", "samples"],
+  "excludeFolders": [],
+  "rules": [
+    "Send the key in the X-API-Key header; base URL https://api.apiauto.space/v1",
+    "Call the API from a server: CORS is off",
+    "Paginate with next_cursor; offset is not supported",
+    "Quota counts returned cars, not requests; the demo key allows up to 20 cars per request",
+    "Photo links expire in about a day: store the car id and fetch a fresh record"
+  ]
+}
