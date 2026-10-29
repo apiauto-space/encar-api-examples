@@ -9,6 +9,7 @@ curl, Python, JavaScript (Node.js) and PHP and work with a free demo key.
 [![Get a free demo key](https://img.shields.io/badge/demo_key-free%2C_1_day-2AABEE?logo=telegram)](https://t.me/apiautospace_bot?start=demo)
 [![Docs](https://img.shields.io/badge/docs-apiauto.space-111)](https://apiauto.space/en/docs/)
 [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.1-6BA539?logo=openapiinitiative)](https://api.apiauto.space/openapi.json)
+[![Postman](https://img.shields.io/badge/Postman-collection-FF6C37?logo=postman&logoColor=white)](https://www.postman.com/apiauto-space/apiauto-space-encar-che168-copart-iaai-api)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/apiauto-space/encar-api-examples/blob/main/LICENSE)
 
 > Encar, Che168, Copart and IAAI have no public API for their listings. apiauto.space keeps an
@@ -68,6 +69,9 @@ is off, because a key in browser code is visible to everyone.
 | Price drops of 5% or more in 24 hours | [curl](https://github.com/apiauto-space/encar-api-examples/blob/main/curl/README.md#change-feed-new-cars-sold-cars-price-changes) | [price_drops.py](https://github.com/apiauto-space/encar-api-examples/blob/main/python/price_drops.py) | [price-drops.mjs](https://github.com/apiauto-space/encar-api-examples/blob/main/javascript/price-drops.mjs) | |
 | Export a selection to CSV (Excel, Google Sheets) | | [export_csv.py](https://github.com/apiauto-space/encar-api-examples/blob/main/python/export_csv.py) | | |
 | Download a car's photos | | [download_photos.py](https://github.com/apiauto-space/encar-api-examples/blob/main/python/download_photos.py) | | |
+
+The same requests with saved real answers are in the [Postman workspace](https://www.postman.com/apiauto-space/apiauto-space-encar-che168-copart-iaai-api): fork the
+collection with the `apiauto.space` environment, paste the key into `apiKey` and send.
 
 Real answers of the API are in [samples](https://github.com/apiauto-space/encar-api-examples/blob/main/samples/encar-car.json):
 
@@ -197,7 +201,8 @@ private.
 написании для всех стран, цены — в валюте рынка и в долларах по курсу ЕЦБ. Есть лента изменений:
 новые, снятые и подешевевшие машины. Бесплатный тестовый ключ на сутки (100 запросов) выдаёт
 Telegram-бот [@apiautospace_bot](https://t.me/apiautospace_bot?start=demo).
-Документация на русском: [apiauto.space/docs/](https://apiauto.space/docs/).
+Документация на русском: [apiauto.space/docs/](https://apiauto.space/docs/). Те же запросы с готовыми
+ответами — в [коллекции Postman](https://www.postman.com/apiauto-space/apiauto-space-encar-che168-copart-iaai-api).
 
 ```bash
 curl -s "https://api.apiauto.space/v1/cars?market=kr&brand=Kia&model=Carnival&limit=20" \

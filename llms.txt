@@ -36,4 +36,5 @@ Key facts:
 
 - [API documentation](https://apiauto.space/en/docs/)
 - [OpenAPI schema](https://api.apiauto.space/openapi.json)
+- [Postman collection with saved answers](https://www.postman.com/apiauto-space/apiauto-space-encar-che168-copart-iaai-api)
 - [Full documentation for LLMs](https://apiauto.space/llms-full.txt)
